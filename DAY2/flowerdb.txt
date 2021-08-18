@@ -1,0 +1,48 @@
+Admin
+aid, name, pass'
+
+Customer
+cUid, name, contact, address, dob, email
+
+categories
+cid, name
+
+Product'
+pid, cid, pname, cost, qtyavil
+
+Location//In
+Zipcode, Name
+
+
+
+orders
+oid, cUid, pid, paymentid, cost, qty, totalcost, ADDRESS'
+
+PaymentMethod'
+paymentid, name
+
+Rakhi
+pid, cid, pname
+
+Cakes
+pid, cid, pname
+
+Flowers
+pid, cid, pname
+Combos
+pid, cid, pname
+Gifts
+pid, cid, pname
+Plants
+pid, cid, pname
+Personalized
+pid, cid, pname
+Anniversary
+pid, cid, pname
+Birthday
+pid, cid, pname
+Corporate
+pid, cid, pname
+
+
+
