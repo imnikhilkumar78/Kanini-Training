@@ -25,7 +25,7 @@ select CustomerID, count(*) as 'Number Of Orders' from Orders group by CustomerI
 select SupplierID, avg(UnitPrice) as ' Average Price Of Products' from Products group by SupplierID
 
 --8
-select SupplierID, avg(UnitPrice), QuantityPerUnit as ' Average Price Of Products' from Products group by SupplierID, QuantityPerUnit
+select SupplierID, avg(UnitPrice) as ' Average Price Of Products' from Products group by SupplierID
 
 --9
 select * from [Order Details]
@@ -39,16 +39,11 @@ select * from Products where CategoryID In (Select CategoryID from Categories wh
 Select P.ProductName, S. CompanyName from Products P join Suppliers S on P.SupplierID=S.SupplierID
 
 --12
-Select C.CompanyName,OD.UnitPrice*OD.Quantity as 'Total Sales' from Customers C join Orders O on C.CustomerID=O.CustomerID join [Order Details] OD on O.OrderID=OD.OrderID  
+select ContactName , count(*) as 'Number of sales' from Customers c join Orders oon c.CustomerID = o.CustomerIDgroup by ContactName
 
 --13
 select * from Customers
-Select C.CompanyName, P.ProductName, Ca.CategoryName, S.CompanyName as 'Supplier Name' 
-from Customers C join Orders O on C.CustomerID=O.CustomerID 
-join [Order Details] OD on O. OrderID=OD.OrderID 
-join Products P on OD.ProductID=P.ProductID 
-join Categories Ca on P.CategoryID=Ca.CategoryID 
-join Suppliers S on P.SupplierID=S.SupplierID  
+select ProductName,CategoryName,ContactName 'Supplier Name',CompanyName 'Customer Name' from Categories ca join Products p on ca.CategoryID = p.CategoryIDjoin Suppliers s on p.SupplierID = s.SupplierID 
 
 --14
 select * from Shippers
@@ -57,3 +52,6 @@ from Shippers S join Orders O on S.ShipperID=O.ShipVia join Customers C on C.Cus
 
 --15
 select P.ProductName, OD.UnitPrice*OD.Quantity as 'Total Sales' from Products P join [Order Details] OD on P.ProductID=OD.ProductID 
+
+
+select companyName 'ShipperName', ContactName'Customer Name',ProductName,concat(FirstName,'',lastname) from Employees e  join orders o on e.EmployeeID=o.EmployeeID  join Customers c on c.CustomerID=o.CustomerID  join Products p on p.ProductID=o.OrderID select productname,sum(unitprice*QuantityPerUnit) 'Total Price' from Products group by productname
