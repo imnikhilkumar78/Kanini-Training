@@ -1,0 +1,49 @@
+Imposes conditions on the execution of a Transact-SQL statement. The Transact-SQL statement that follows an IF keyword and its condition is executed if the condition is satisfied: the Boolean expression returns TRUE. The optional ELSE keyword introduces another Transact-SQL statement that is executed when the IF condition is not satisfied: the Boolean expression returns FALSE.
+
+IF Boolean_expression   
+     { sql_statement | statement_block }   
+[ ELSE   
+     { sql_statement | statement_block } ]   
+
+BEGIN
+    DECLARE @x INT = 10,
+            @y INT = 20;
+
+    IF (@x > 0)
+    BEGIN
+        IF (@x < @y)
+            PRINT 'x > 0 and x < y';
+        ELSE
+            PRINT 'x > 0 and x >= y';
+    END			
+END';
+
+--FOR
+
+In SQL Server, there is no FOR LOOP. However, you simulate the FOR LOOP using the WHILE LOOP.
+
+DECLARE @cnt INT = 0;
+
+WHILE @cnt < 10
+BEGIN
+   PRINT @cnt;
+   SET @cnt = @cnt + 1;
+END;
+
+PRINT 'DONE';
+GO
+
+A FOR LOOP is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+
+FOR counter IN initial_value .. final_value LOOP 
+   sequence_of_statements; 
+END LOOP;
+
+DECLARE 
+   a number(2); 
+BEGIN 
+   FOR a in 10 .. 20 LOOP 
+      dbms_output.put_line('value of a: ' || a); 
+  END LOOP; 
+END; 
+
