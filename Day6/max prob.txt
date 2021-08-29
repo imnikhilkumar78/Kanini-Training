@@ -1,0 +1,35 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'getMax' function below.
+#
+# The function is expected to return an INTEGER_ARRAY.
+# The function accepts STRING_ARRAY operations as parameter.
+#
+
+stack = []
+max_stack = []
+
+for i in range(int(input())):
+    try:
+        x = input()
+    except:
+        x = '3'
+    if x[0]=='1':
+        n=int(x.split()[1])
+        stack.append(n)
+        if len(max_stack)==0 or max_stack[-1]<n:
+            max_stack.append(n)
+        else:
+            max_stack.append(max_stack[-1])
+    elif x[0] == '2':
+        stack.pop()
+        max_stack.pop()
+    else:
+        print(max_stack[-1])

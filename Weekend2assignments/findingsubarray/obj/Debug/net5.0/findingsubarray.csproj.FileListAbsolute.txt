@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\findingsubarray.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\findingsubarray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\findingsubarray.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\findingsubarray.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\findingsubarray.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\bin\Debug\net5.0\findingsubarray.exe
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\bin\Debug\net5.0\findingsubarray.deps.json
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\bin\Debug\net5.0\findingsubarray.runtimeconfig.json
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\bin\Debug\net5.0\findingsubarray.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\bin\Debug\net5.0\findingsubarray.dll
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\bin\Debug\net5.0\ref\findingsubarray.dll
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\bin\Debug\net5.0\findingsubarray.pdb
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\findingsubarray.dll
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\ref\findingsubarray.dll
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\findingsubarray.pdb
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Weekend2assignments\findingsubarray\obj\Debug\net5.0\findingsubarray.genruntimeconfig.cache

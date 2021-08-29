@@ -1,0 +1,8 @@
+1)Take 10 numbers from user and print allthe numbers that are prime
+2) take numbers 11 from user and find the one number that does not repeat itself
+3) Take 5 numbers from user and store it in an array. Find if the array has the next number of an element, if yes  then count the number of such elements
+Example
+{23,56,78,24,57}
+The answer is 2(23->24,56->57)
+{2,8,6,5,10}
+The answer is 1(5->6)
