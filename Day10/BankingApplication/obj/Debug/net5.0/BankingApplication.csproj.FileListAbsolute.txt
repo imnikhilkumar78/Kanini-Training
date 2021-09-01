@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\bin\Debug\net5.0\BankingApplication.exe
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\bin\Debug\net5.0\BankingApplication.deps.json
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\bin\Debug\net5.0\BankingApplication.runtimeconfig.json
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\bin\Debug\net5.0\BankingApplication.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\bin\Debug\net5.0\BankingApplication.dll
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\bin\Debug\net5.0\ref\BankingApplication.dll
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\bin\Debug\net5.0\BankingApplication.pdb
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\BankingApplication.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\BankingApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\BankingApplication.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\BankingApplication.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\BankingApplication.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\BankingApplication.dll
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\ref\BankingApplication.dll
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\BankingApplication.pdb
+C:\Users\Administrator\Desktop\LOCALREPOSITORY\Day10\BankingApplication\obj\Debug\net5.0\BankingApplication.genruntimeconfig.cache

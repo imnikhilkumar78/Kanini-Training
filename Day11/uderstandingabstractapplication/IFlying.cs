@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace uderstandingabstractapplication
+{
+    interface IFlying
+    {
+        void TakeOFF();
+        public void FLy();
+        public void Land();
+
+    }
+}
